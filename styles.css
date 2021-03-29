@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth
+}
+span.animated {
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+}
+a:link,
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* Mobile S */
+@media only screen and (min-width: 1px) and (max-width: 425px) {
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont;
+    background-color: #000000;   /* nero */
+    height: 60px;
+    width: 100%;
+  }
+  .menu {
+  margin-top:23px;
+  font-size: 12px;
+  }
+  .menu > li {
+    display: inline;
+    margin-right: 8px;
+  }
+  .logo2 {
+    width:60px;
+  }
+  .mn {
+    width: 12px;
+  }
+  .sector0 {
+    height:60px;
+  }
+  .sector1 {
+    height: 180px;
+    background-color: #FFFFFF;    /* Bianco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 20px;
+  }
+  .title {
+  height: 30px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector2 {
+    height: 220px;
+    background-color: #000000;    /* Nero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallsector2 > img {
+    width: 160px;
+  }
+  h2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  p {
+    font-size: 7px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .edge {
+    height: 3px;
+    background-color: #FFFFFF;    /* Bianco */
+  }
+  .project {
+    width: 100%;
+  }
+  }
+  .sector3 {
+    height: 120px;
+    background-color: #000000;
+    display: flex;
+   justify-content: space-between;
+  }
+  .sector4 {
+    height: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  h3 {
+    font-size: 8px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .mn2 {
+    width: 15px;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+  margin-top:38px;
+  font-size: 22px;
+  }
+
+  .menu > li {
+    display: inline;
+    margin-right: 24px;
+  }
+  .mn {
+    width: 20px;
+  }
+  .sector0 {
+    height:100px;
+  }
+  .sector1 {
+    height: 440px;
+    background-color: #FFFFFF;    /* Bianco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 40px;
+  }
+  .title {
+  height: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector2 {
+    height: 440px;
+    background-color: #000000;    /* Nero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallsector2 > img {
+    width: 400px;
+  }
+  h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  p {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .edge {
+    height: 3px;
+    background-color: #FFFFFF;    /* Bianco */
+  }
+  .project {
+  width: 506px;
+  }
+  a > img: {
+  filter:grayscale(0);
+  }
+  a > img:hover {
+    filter: grayscale(100%);
+  }
+  .sector3 {
+    height: 300px;
+    background-color: #000000;
+    display: flex;
+   justify-content: space-between;
+  }
+  .sector4 {
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  h3 {
+    font-size: 20px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .mn2 {
+    width: 28px;
+  }
+}
+/* Desktop Styles 1 */
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont;
+    background-color: #000000;   /* nero */
+    height: 100px;
+    width: 100%;
+  }
+  .menu {
+  margin-top:38px;
+  font-size: 22px;
+  }
+  .menu > li {
+    display: inline;
+    margin-right: 24px;
+  }
+  .logo2 {
+    width:100px;
+  }
+  .mn {
+    width: 20px;
+  }
+  .sector0 {
+    height:100px;
+  }
+  .sector1 {
+    height: 440px;
+    background-color: #FFFFFF;    /* Bianco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 40px;
+  }
+  .title {
+  height: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector2 {
+    height: 440px;
+    background-color: #000000;    /* Nero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallsector2 > img {
+    width: 400px;
+  }
+  h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  p {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .edge {
+    height: 3px;
+    background-color: #FFFFFF;    /* Bianco */
+  }
+  .project {
+  width: 100%;
+  }
+  a > img: {
+  filter:grayscale(0);
+  }
+  a > img:hover {
+    filter: grayscale(100%);
+  }
+  .sector3 {
+    height: 300px;
+    background-color: #000000;
+    display: flex;
+   justify-content: space-between;
+  }
+  .sector4 {
+    height: 60px;
+    background-color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  h3 {
+    font-size: 20px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .mn2 {
+    width: 28px;
+  }
+}
+/* Desktop Styles 2 */
+@media only screen and (min-width: 1025px) and (max-width:1440px) {
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont;
+    background-color: #000000;   /* nero */
+    height: 100px;
+    width: 100%;
+  }
+  .menu {
+  margin-top:38px;
+  font-size: 22px;
+  }
+  .menu > li {
+    display: inline;
+    margin-right: 24px;
+  }
+  .logo2 {
+    width:100px;
+  }
+  .mn {
+    width: 20px;
+  }
+  .sector0 {
+    height:100px;
+  }
+  .sector1 {
+    height: 440px;
+    background-color: #FFFFFF;    /* Bianco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 50px;
+  }
+  .title {
+  height: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sector2 {
+    height: 440px;
+    background-color: #000000;    /* Nero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smallsector2 > img {
+    width: 400px;
+  }
+  h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  p {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .edge {
+    height: 3px;
+    background-color: #FFFFFF;    /* Bianco */
+  }
+  .project {
+  width: 700px;
+  }
+  a > img: {
+  filter:grayscale(0);
+  }
+  a > img:hover {
+    filter: grayscale(100%);
+  }
+  .sector3 {
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+   justify-content: space-between;
+  }
+  .sector4 {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  h3 {
+    font-size: 20px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  .mn2 {
+    width: 32px;
+  }
+}
